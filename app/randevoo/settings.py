@@ -26,6 +26,10 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "django_cleanup.apps.CleanupConfig",
     "rest_framework",
+    "core.apps.CoreConfig",
+    "meets.apps.MeetsConfig",
+    "feedback.apps.FeedbackConfig",
+    "accounts.apps.AccountsConfig",
 ]
 
 MIDDLEWARE = [

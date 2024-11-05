@@ -8,6 +8,7 @@ color = true
 inline-quotes = "double"
 docstring-quotes = "double"
 exclude = ".git,__pycache__,docs/source/conf.py,old,build,dist,migrations"
+application-import-names = ["accounts", "core", "feedback", "meets"]
 import-order-style = "google"
 max-line-length = 100
 
@@ -29,6 +30,7 @@ flake8-pyproject = "^1.2.3"
 markdown = "^3.7"
 django-filter = "^24.3"
 whitenoise = "^6.8.2"
+pillow = "^11.0.0"
 
 [tool.poetry.group.dev.dependencies]
 django-debug-toolbar = "^4.4.6"
